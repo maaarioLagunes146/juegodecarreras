@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Carreras de autos</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"> </script> 
+      
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyDE1kWXQwDISad5ML790-xeIPMjusbya8M",
+  authDomain: "base-de-datos-carrera-de-autos.firebaseapp.com",
+  databaseURL: "https://base-de-datos-carrera-de-autos-default-rtdb.firebaseio.com",
+  projectId: "base-de-datos-carrera-de-autos",
+  storageBucket: "base-de-datos-carrera-de-autos.appspot.com",
+  messagingSenderId: "555179712112",
+  appId: "1:555179712112:web:6cef70418636fe1f8f9eb5"
+};
+    </script>
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
